@@ -1,0 +1,77 @@
+{
+   "abstract" : "Perl interface to the Rustls TLS library",
+   "author" : [
+      "Dan Book <dbook@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Zilla version 6.032, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "FFI-Rustls",
+   "no_index" : {
+      "directory" : [
+         "eg",
+         "examples",
+         "inc",
+         "share",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "FFI::Build::File::Cargo" : "0",
+            "FFI::Build::MM" : "0.83"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "FFI::Platypus" : "2.00",
+            "FFI::Platypus::Lang::Rust" : "0"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "FFI::Rustls" : {
+         "file" : "lib/FFI/Rustls.pm",
+         "version" : "v0.1.0"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Grinnz/FFI-Rustls/issues"
+      },
+      "homepage" : "https://github.com/Grinnz/FFI-Rustls",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Grinnz/FFI-Rustls.git",
+         "web" : "https://github.com/Grinnz/FFI-Rustls"
+      }
+   },
+   "version" : "v0.1.0",
+   "x_contributors" : [
+      "Dan Book <grinnz@grinnz.com>"
+   ],
+   "x_generated_by_perl" : "v5.40.0",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.38",
+   "x_spdx_expression" : "Artistic-2.0"
+}
+

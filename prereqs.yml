@@ -1,0 +1,4 @@
+runtime:
+  requires:
+    FFI::Platypus: '2.00'
+    FFI::Platypus::Lang::Rust: 0
